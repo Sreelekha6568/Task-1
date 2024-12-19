@@ -1,0 +1,3 @@
+function Myfun(){
+    alert(Date())
+}

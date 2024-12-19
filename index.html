@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>date</title>
+    <title>arithmetic</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <center>
-        <h1>check todays date</h1>
-        <button onclick="Myfun()">check date</button>
+        <div>
+        <input type="tell name=firstname" id="firstname">
+        <br>
+        <br>
+        <input type="tell name=secondname" id="secondname">
+        <br>
+        <br>
+        <button onclick="Addnum()">+</button>
+        <button onclick="Subnum()">-</button>
+        <button onclick="Mulnum()">*</button>        
+        <button onclick="Divnum()">/</button>
+        <button onclick="Pownum()">**</button>
+        <h1 id="result"></h1>
+        </div>
     </center>
-
+    
     <script src="script.js"></script>
+
 </body>
 </html>
